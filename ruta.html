@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>La ruta · Entre Todas Tejemos la Ruta</title>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link href="https://api.fontshare.com/v2/css?f[]=pally@400,500,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+  <a class="marca" href="index.html">Entre Todas Tejemos la Ruta</a>
+  <div class="menu">
+    <a class="ir" href="index.html"><span class="material-symbols-rounded">home</span>Inicio</a>
+    <a class="ir activo" href="ruta.html"><span class="material-symbols-rounded">routine</span>La ruta</a>
+    <a class="ir" href="instagram.html"><span class="material-symbols-rounded">photo_camera</span>Instagram</a>
+    <a class="ir" href="mapa.html"><span class="material-symbols-rounded">map</span>Mapa</a>
+  </div>
+</nav>
+
+<section class="fondo-suave" style="padding-top:70px">
+  <svg class="squig" style="right:-30px;top:60px;width:240px" viewBox="0 0 200 120" fill="none" stroke="#F7C948" stroke-width="12" stroke-linecap="round"><path d="M10 30C80 -10 150 80 100 90S60 30 190 70"/></svg>
+  <div class="wrap">
+    <span class="tag"><span class="material-symbols-rounded">routine</span>La ruta de acción</span>
+    <h2><span class="lbl">Si algo pasa, hay un camino</span></h2>
+    <p class="lead">Elige el recorrido que corresponde a tu caso. En ambos, el orden importa menos que tu seguridad y tu decisión.</p>
+
+    <div class="tabs">
+      <button class="tab on" data-t="c"><span class="material-symbols-rounded">diversity_3</span>Integrantes de CORPOSET</button>
+      <button class="tab" data-t="f"><span class="material-symbols-rounded">badge</span>Personas que asisten o trabajan en la fundación</button>
+    </div>
+
+    <div class="crit">
+      <span><span class="material-symbols-rounded">hearing</span>Escuchar sin juzgar</span>
+      <span><span class="material-symbols-rounded">shield</span>Priorizar la seguridad</span>
+      <span><span class="material-symbols-rounded">thumb_up</span>Pedir consentimiento</span>
+      <span><span class="material-symbols-rounded">lock</span>Proteger la privacidad</span>
+      <span><span class="material-symbols-rounded">block</span>No investigar ni confrontar</span>
+    </div>
+
+    <div class="steps" id="panel-c">
+      <div class="step"><h3>Identificar o comunicar la situación</h3>Una integrante vive, presencia o conoce una posible situación de violencia, acoso, intimidación o discriminación, dentro o fuera de la organización.<div class="note"><span class="material-symbols-rounded">info</span>No necesitas tener todo claro para comunicarlo.</div></div>
+      <div class="step"><h3>Contactar a la persona referente de la ruta</h3>Acude a la persona designada por CORPOSET o a su suplente. <span class="pill">Pendiente de designación</span><div class="note warn"><span class="material-symbols-rounded">warning</span>Si la situación involucra a la persona referente o a su suplente, busca un contacto alternativo e independiente.</div></div>
+      <div class="step"><h3>Escuchar y verificar la seguridad</h3>Conversar en un lugar privado y seguro. Preguntar si la persona está en peligro, si necesita atención médica y qué apoyo necesita.<div class="note"><span class="material-symbols-rounded">info</span>Sin presionar y sin pedir detalles innecesarios.</div></div>
+      <div class="step"><h3>Definir si hay peligro inmediato</h3><div class="alert"><b class="big">123</b>Si hay peligro inmediato, amenazas graves o lesiones, llama al 123 y facilita atención médica. No confrontes a la persona señalada ni reveles la ubicación de quien pidió ayuda.</div><div class="note"><span class="material-symbols-rounded">info</span>Si no hay peligro inmediato: explicar las alternativas y acordar juntas el siguiente paso.</div></div>
+      <div class="step"><h3>Activar el apoyo correspondiente</h3>Con consentimiento, facilitar el contacto o la remisión según la situación:<br><span class="pill">Casa Matria</span><span class="pill">Servicios de salud</span><span class="pill">ICBF</span><span class="pill">Comisaría de Familia</span><span class="pill">Fiscalía</span><div class="note"><span class="material-symbols-rounded">info</span>Si los hechos ocurren dentro de CORPOSET, adoptar medidas preventivas.</div></div>
+      <div class="step"><h3>Registrar y hacer seguimiento seguro</h3>Registrar solo la información necesaria y restringir su acceso. Acordar un seguimiento por un canal seguro, si la persona lo desea.<div class="note"><span class="material-symbols-rounded">lock</span>No circular detalles por chats o grupos.</div></div>
+    </div>
+
+    <div class="steps" id="panel-f" hidden>
+      <div class="step"><h3>Identificar o comunicar el caso</h3>Una persona que trabaja en la fundación, asiste a sus programas o visita sus instalaciones experimenta o presencia violencia, acoso o riesgo.<div class="note"><span class="material-symbols-rounded">info</span>Puedes comunicarlo tú misma o alguien que lo presenció.</div></div>
+      <div class="step"><h3>Informar a una persona responsable</h3>Acude a la persona encargada de la ruta o a un responsable alternativo. También puedes pedir orientación directamente a una entidad externa. <span class="pill">Pendiente de designación</span><div class="note warn"><span class="material-symbols-rounded">warning</span>Si la persona responsable está involucrada, no debe gestionar el caso.</div></div>
+      <div class="step"><h3>Brindar atención inicial en un espacio seguro</h3>Escuchar sin juzgar, verificar si existe peligro y evitar que la persona tenga que relatar repetidamente lo sucedido.<div class="note"><span class="material-symbols-rounded">info</span>No se exigen pruebas ni denuncia para ofrecer orientación inicial.</div></div>
+      <div class="step"><h3>Definir si hay peligro inmediato</h3><div class="alert"><b class="big">123</b>Si hay peligro inmediato, amenazas graves o lesiones, llama al 123 y facilita atención médica. No confrontes a la persona señalada ni reveles la ubicación de quien pidió ayuda.</div><div class="note"><span class="material-symbols-rounded">info</span>Si no hay peligro inmediato: explicar las alternativas y acordar juntas el siguiente paso.</div></div>
+      <div class="step"><h3>Adoptar medidas preventivas en la fundación</h3>Dentro de sus competencias: prevenir nuevos contactos de riesgo, ajustar actividades o espacios y evitar represalias.<div class="note"><span class="material-symbols-rounded">block</span>Sin confrontaciones ni investigaciones internas improvisadas.</div></div>
+      <div class="step"><h3>Registrar, prevenir y hacer seguimiento</h3>Proteger los datos del caso, revisar las condiciones de seguridad de las instalaciones y acordar un seguimiento seguro.<div class="note"><span class="material-symbols-rounded">lock</span>Seguimiento confidencial y acordado con la persona.</div></div>
+      <div class="step"><h3>Remitir a entidades competentes</h3>Facilitar el contacto con servicios de salud y protección según la situación.<div class="note warn"><span class="material-symbols-rounded">warning</span>Si hay niñas, niños o adolescentes en riesgo: activar las medidas de protección pertinentes, incluido el ICBF (línea 141).</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- LINEAS -->
+<section class="fondo-violeta">
+  <div class="wrap">
+    <span class="tag"><span class="material-symbols-rounded">call</span>Orientación y atención</span>
+    <h2><span class="lbl">¿A quién puedo llamar?</span></h2>
+    <div class="lines">
+      <div class="big"><b>123</b><span style="font-family:'Pally'">Emergencias</span><small>Peligro inmediato o respuesta urgente.</small></div>
+      <div class="grid-l">
+        <div class="l"><b>155</b><div><strong>Orientación a mujeres</strong><small>Para mujeres víctimas de violencia.</small></div></div>
+        <div class="l"><b>311 612 0000</b><div><strong>Casa Matria Cali · 24/7</strong><small>Atiende directamente en Felidia.</small></div></div>
+        <div class="l"><b>122</b><div><strong>Fiscalía General</strong><small>Orientación y denuncia de posibles delitos.</small></div></div>
+        <div class="l"><b>141</b><div><strong>ICBF</strong><small>Protección de niñas, niños y adolescentes.</small></div></div>
+        <div class="l"><b>350 350 3218</b><div><strong>Comisarías de Familia de Cali</strong><small>Violencia intrafamiliar y medidas de protección.</small></div></div>
+        <div class="l"><b>106</b><div><strong>Salud mental Cali</strong><small>Teleorientación. Confirmar disponibilidad.</small></div></div>
+      </div>
+    </div>
+    <p style="margin-top:18px;font-weight:600"><span class="material-symbols-rounded" style="color:var(--mor)">lock</span> La información se comparte solo con quienes deban intervenir y, siempre que sea posible, con tu consentimiento. La denuncia es una opción, no una condición para recibir orientación.</p>
+  </div>
+</section>
+
+<footer>Entre Todas Tejemos la Ruta · Felidia, Santiago de Cali</footer>
+
+<script>
+// Cambia entre los dos recorridos de la ruta
+document.querySelectorAll(".tab").forEach(function(boton){
+  boton.onclick = function(){
+    document.querySelectorAll(".tab").forEach(function(t){ t.classList.remove("on"); });
+    boton.classList.add("on");
+    document.getElementById("panel-c").hidden = (boton.dataset.t !== "c");
+    document.getElementById("panel-f").hidden = (boton.dataset.t !== "f");
+  };
+});
+</script>
+</body>
+</html>
